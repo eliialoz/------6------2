@@ -22,21 +22,19 @@ void Confirmed(Student** s) {
 int main() {
 	Student* Studentarr[7];
 
-	uint arr1[]{ 90,100,90 };
-	Studentarr[0] = new BA(123, "Abe", "Avraham", 3, 3, arr1);
-	uint arr2[]{ 100,100,90,100,90,100,90,100,90,100 };
-	Studentarr[1] = new BA(234, "Yitzhak", "Avrahamson", 10, 10, arr2);
-
-	uint arr3[]{ 90, 100, 90, 100, 90, 100, 90 };
-	Studentarr[2] = new MA(345, "Yaacov", "Jacobson", 7, 7, arr2, false);
-	uint arr4[]{ 90, 100, 90, 100, 90, 100, 90 };
-	Studentarr[3] = new MA(456, "Sara", "Emanu", 7, 7, arr2, true);
-
+	Studentarr[0] = new BA(123, "Abe", "Avraham", 3, 3, new uint[]{ 90,100,90 });
+	Studentarr[1] = new BA(234, "Yitzhak", "Avrahamson", 10, 10,new uint[]{ 100,100,90,100,90,100,90,100,90,100 });
+	Studentarr[2] = new MA(345, "Yaacov", "Jacobson", 7, 7, new uint[]{ 90, 100, 90, 100, 90, 100, 90 }, false);
+	Studentarr[3] = new MA(456, "Sara", "Emanu", 7, 7, new uint[]{ 90, 100, 90, 100, 90, 100, 90 }, true);
 	Studentarr[4] = new PHD(567, "Rivka", "Imanu", 1, 30);
 	Studentarr[5] = new PHD(678, "Rachel", "Jacobs", 2, 20);
 	Studentarr[6] = new PHD(789, "Leah", "Jacobs", 2, 30);
 
 	Confirmed(Studentarr);
+
+	for (uint i = 0; i < 7; i++)
+		delete  Studentarr[i];
+	
 	return 0;
 }
 

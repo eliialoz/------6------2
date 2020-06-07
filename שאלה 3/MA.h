@@ -18,7 +18,7 @@ public:
 	//Constractor
 	MA(uint id, std::string firstName, std::string lastName, uint numberOFcourses, uint size, uint* grades,bool participate):BA(id,firstName,lastName,numberOFcourses, size,grades), _participate(participate){}
 	//Checking if he is allowed to get a stipend	
-	bool stipend();
+	bool stipend()override;
 	//Print the student's identity
 	void print();
 };

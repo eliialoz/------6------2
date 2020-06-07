@@ -22,7 +22,7 @@ protected:
 public:
 	//Constractor
 	Student() {}
-	Student(uint id, std::string firstName, std::string lastName, uint numberOFcourses) :_id(id), _firstName(firstName), _lastName(lastName), _numberOFcourses(numberOFcourses) {}
+	Student(uint id,std::string firstName, std::string lastName, uint numberOFcourses) :_id(id), _firstName(firstName), _lastName(lastName), _numberOFcourses(numberOFcourses) {}
 	//pure virtual function
 	virtual bool stipend() = 0;
 	virtual void print() = 0;
