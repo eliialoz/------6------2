@@ -1,0 +1,110 @@
+enter number of sides for polygon 1:
+3
+enter sides for polygon:
+2
+3
+4
+enter number of sides for polygon 2:
+3
+enter sides for polygon:
+4
+4
+1
+equal
+enter number of sides for polygon 1:
+3
+enter sides for polygon:
+2
+3
+4
+enter number of sides for polygon 2:
+3
+enter sides for polygon:
+4
+3
+1
+not equal
+enter number of sides for polygon 1:
+4
+enter sides for polygon:
+2
+4
+enter number of sides for polygon 2:
+4
+enter sides for polygon:
+4
+2
+equal
+enter number of sides for polygon 1:
+4
+enter sides for polygon:
+3
+2
+enter number of sides for polygon 2:
+4
+enter sides for polygon:
+3
+3
+not equal
+enter number of sides for polygon 1:
+5
+enter sides for polygon:
+1
+2
+3
+4
+5
+enter number of sides for polygon 2:
+5
+enter sides for polygon:
+1
+2
+3
+4
+5
+equal
+enter number of sides for polygon 1:
+5
+enter sides for polygon:
+1
+2
+3
+2
+3
+enter number of sides for polygon 2:
+5
+enter sides for polygon:
+1
+2
+3
+3
+3
+not equal
+enter number of sides for polygon 1:
+3
+enter sides for polygon:
+1
+2
+3
+enter number of sides for polygon 2:
+2
+not equal
+enter number of sides for polygon 1:
+4
+enter sides for polygon:
+2
+3
+enter number of sides for polygon 2:
+3
+not equal
+enter number of sides for polygon 1:
+5
+enter sides for polygon:
+1
+2
+3
+2
+1
+enter number of sides for polygon 2:
+4
+not equal

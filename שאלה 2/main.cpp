@@ -27,7 +27,7 @@ Polygon* getInput(uint num) {
 	else {
 		cout << "enter sides for polygon:" << endl;
 		uint arr[2];
-		for (uint i = 0; i < num-2; i++) {
+		for (uint i = 0; i < num - 2; i++) {
 			cin >> arr[i];
 		}
 		p = new Rectangle(arr[0], arr[1]);
@@ -36,21 +36,25 @@ Polygon* getInput(uint num) {
 }
 
 int main() {
+
 	Polygon* p1;
 	Polygon* p2;
 	uint num1, num2;
-	cout << "enter number of sides for polygon 1:" << endl;
-	cin >> num1;
-	p1 = getInput(num1);
-	cout << "enter number of sides for polygon 2:" << endl;
-	cin >> num2;
-	if (num1 == num2) {
-		p2 = getInput(num1);
-		if (*p1 == *p2)
-			cout << "equal:" << endl;
+	
+		cout << "enter number of sides for polygon 1:" << endl;
+		cin >> num1;
+		p1 = getInput(num1);
+		cout << "enter number of sides for polygon 2:" << endl;
+		cin >> num2;
+		if (num1 == num2) {
+			p2 = getInput(num1);
+			if (*p1 == *p2)
+				cout << "equal" << endl;
+			else
+				cout << "not equal" << endl;
+		}
 		else
-			cout << "not equal:" << endl;
-	}
-
+			cout << "not equal" << endl;
+	
 	return 0;
 }
